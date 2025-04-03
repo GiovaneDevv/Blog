@@ -1,7 +1,16 @@
+import Header  from './Componets/Header';
+
+import Article  from './Componets/Article';
+
+import Post  from './Componets/Post';
+
 
 function App() {
   return (
-    <h1>Meu Blog</h1>
+    <>
+    <Header></Header>
+    <Article></Article>
+    </>
   );
 }
 
